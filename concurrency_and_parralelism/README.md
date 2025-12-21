@@ -1,0 +1,15 @@
+![alt text](image.png)
+
+### Concurrency 
+- Doing multiple tasks at once ; multitasking 
+- Two concepts: 1. threading.Thread and 2. asyncio
+- Using Only 1 core but each function running in different threads
+
+### Parrallelism 
+- Running Multiple tasks at the exact same time in a different Process
+- Two concepts: 1. multiprocessing.Process and 2. concurrent.futures.ProcessPoolExecutor
+
+### Global Interpreter lock(GIL)
+- No two threads can change the memory at the same time. 
+- Mutex plays an vital role here to avoid changing the same memory at the same time from two different threads.  
+
